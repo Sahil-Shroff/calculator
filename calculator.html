@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <link rel = "stylesheet" type = "text/css" href = "calculator.css" >
+    </head>
+    <body>
+        <div class = "content">
+            <h1>Calculator</h1>
+            <div class = "container-fluid calculator">
+                <div class="row">
+                    <div class = "col-md-12"><p id="result">0</p></div>
+                </div>
+                <div class="symbol">
+                        <div class = "row">
+                                <div class = "col-md-4">
+                                    <button type="button" class="btn btn-info btn-lg btn-block" id = "add">+</button>
+                                </div>
+                                <div class = "col-md-4">
+                                        <button type="button" class="btn btn-info btn-lg btn-block" id = "subs">-</button>
+                                </div>
+                                <div class = "col-md-4">
+                                        <button type="button" class="btn btn-info btn-lg btn-block" id = "mul">*</button>
+                                </div>
+                        </div>
+                        <div class="row">        
+                                <div class = "col-md-4">
+                                        <button type="button" class="btn btn-info btn-lg btn-block" id = "divide">/</button>
+                                </div>
+                                <div class = "col-md-4">
+                                        <button type="button" class="btn btn-info btn-lg btn-block" id = "mod">%</button>
+                                </div>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class = "col-md-4">
+                            <button type="button" class="btn btn-dark btn-lg btn-block" id = "clear">clear</button>
+                    </div>
+                    <div class = "col-md-4">
+                            <button type="button" class="btn btn-dark btn-lg btn-block" id = "reset">reset</button>
+                    </div>
+                    <div class = "col-md-4">
+                            <button type="button" class="btn btn-dark btn-lg btn-block" id = "delete">delete</button>
+                    </div>
+                </div>
+                <div class="num">
+                        <div class="row">
+                                <div class = "col-md-4">
+                                      <button type="button" class="btn btn-dark btn-lg btn-block" id="one">1</button>
+                                </div>
+                                <div class = "col-md-4">
+                                        <button type="button" class="btn btn-dark btn-lg btn-block" id="two">2</button>
+                                </div>
+                                <div class = "col-md-4">
+                                        <button type="button" class="btn btn-dark btn-lg btn-block" id="three">3</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                    <div class = "col-md-4">
+                                            <button type="button" class="btn btn-dark btn-lg btn-block" id="four">4</button>
+                                    </div>
+                                    <div class = "col-md-4">
+                                            <button type="button" class="btn btn-dark btn-lg btn-block" id="five">5</button>
+                                    </div>
+                                    <div class = "col-md-4">
+                                            <button type="button" class="btn btn-dark btn-lg btn-block" id="six">6</button>
+                                    </div>
+                            </div>
+                            <div class="row">
+                                        <div class = "col-md-4">
+                                                <button type="button" class="btn btn-dark btn-lg btn-block" id="seven">7</button>
+                                        </div>
+                                        <div class = "col-md-4">
+                                                <button type="button" class="btn btn-dark btn-lg btn-block" id="eight">8</button>
+                                        </div>
+                                        <div class = "col-md-4">
+                                                <button type="button" class="btn btn-dark btn-lg btn-block" id="nine">9</button>
+                                        </div>
+                            </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                         <button type="button" class="btn btn-success btn-lg btn-block" id="equal">=</button>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="button" class="btn btn-success btn-lg btn-block" id="Ans">Ans</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="calculator.js">
+        </script>
+    </body>
+</html>

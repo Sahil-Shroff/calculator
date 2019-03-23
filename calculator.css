@@ -1,0 +1,37 @@
+h1{
+    color: yellow;
+    text-align: center;
+}
+
+.content{
+    max-width: 500px;
+    margin: auto;
+}
+
+.calculator{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    padding: 30px;
+    text-align: center;
+}
+
+.col-md-2{
+    text-align: center;
+    padding: 2px;;
+}
+
+.col-md-3{
+    text-align: center;
+    padding: 2px;
+}
+
+.col-md-4{
+    text-align: center;
+    padding: 2px;
+}
+
+#result{
+    background-color: aliceblue;
+    color: black;
+}
